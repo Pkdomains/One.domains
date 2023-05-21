@@ -1,0 +1,39 @@
+body {
+    background-color: #FDFD96; /* Vibrant Yellow */
+    color: #2E86C1; /* Vibrant Blue */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 20px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    background-color: #2E86C1; /* Vibrant Blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3498DB; /* Lighter Vibrant Blue */
+}
